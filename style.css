@@ -1,0 +1,262 @@
+Pular para o conteúdo principal
+Google Sala de Aula
+Sala de Aula
+3º Ano A Manha - Matematica II - Médio
+ROCHA POMBO, C E-EF M N
+Início
+Agenda
+Recursos
+Minhas inscrições
+Pendentes
+M
+Monitoria - 1º Ano 1 Manha - Atividade Complementar
+ROCHA POMBO, C E-EF M N
+E
+Educacao Fisica - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+F
+Fisica III - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+R
+Rec Aprend Matematica - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+B
+Biologia Ii - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+F
+Fisica - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+3
+3º Ano A Manha - Matematica II - Médio
+ROCHA POMBO, C E-EF M N
+E
+Educacao Financeira - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+Q
+Quimica I - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+P
+Projeto De Vida - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+F
+Fisica Ii - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+M
+Matematica - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+R
+Rec Aprend Lingua Port - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+L
+Lingua Portuguesa - 3º Ano A Manha - Médio
+ROCHA POMBO, C E-EF M N
+Turmas arquivadas
+Configurações
+Mural
+Atividades
+Pessoas
+3º Ano A Manha - Matematica II - Médio
+ROCHA POMBO, C E-EF M N
+Próximas atividades
+Nenhuma atividade para a próxima semana!
+
+Escreva um aviso para sua turma
+
+Aviso: "hhh"
+GUSTAVO DE MEDEIROS
+Criado em: 14:4714:47 (editado: 15:02)
+hhh
+
+style.css
+CSS
+
+Adicionar comentário para a turma...
+
+
+Aviso: "Relatório do desempenho das atividades…"
+GUSTAVO DE MEDEIROS
+Criado em: 28 de abr.28 de abr. (editado: 28 de abr.)
+Relatório do desempenho das atividades da plataforma Alura:
+
+(não é as provas) as provas não consegui o relatório, lancei manual no portal do aluno.
+Exibindo alura atividades.png
+alura atividades.png
+
+Adicionar comentário para a turma...
+
+
+Aviso: "* lembrar de sexta fazermos o…"
+GUSTAVO DE MEDEIROS
+Criado em: 22 de abr.22 de abr.
+* lembrar de sexta fazermos o pré-conselho escolar no link em anexo*
+1 comentário para a turma
+
+GUSTAVO DE MEDEIROS25 de abr.
+https://forms.gle/oT3uCDPYE2eUEtFP8
+
+Adicionar comentário para a turma...
+
+
+Aviso: "Ola queridos alunos, estamos com a…"
+GUSTAVO DE MEDEIROS
+Criado em: 15 de abr.15 de abr.
+Ola queridos alunos, estamos com a proposta do AGRINHO 2025 aberta, como comentei em sala, temos cerca de 70 dias para a criação de um site com o tema "Comemorando a Conexão Campo Cidade"
+
+Preciso de alunos que queiram tentar.
+Eu sei que eu vou a Curitiba kkkk
+preciso de alguem com coragem para assumir umas tarefinhas de casa em programação 
+
+Vai ter o meu auxilio, apoio mas ja sabem, vai ter teminha de casa. Não garanto a vitória, mas garanto que vamos lutar para chegar lá.
+
+Se alguem se interessar entre em contato comigo o mais breve possível através do Whatsapp 46 999038688 
+lá eu passo mais informações.
+
+Adicionar comentário para a turma...
+
+
+Aviso: "prova3-a.vercel.app link da prova"
+GUSTAVO DE MEDEIROS
+Criado em: 4 de abr.4 de abr.
+prova3-a.vercel.app
+
+
+link da prova
+
+Adicionar comentário para a turma...
+
+
+Aviso: "ola meus queridos, aproveitando o…"
+GUSTAVO DE MEDEIROS
+Criado em: 4 de mar.4 de mar.
+ola meus queridos, aproveitando o carnaval? quero lembra-los que sexta teremos prova e vou mandar aqui caso alguel queira dar um revisada, uns conteúdos que vai cair na provinha:
+
+plano cartesiano: plotagem de pontos e distância entre pontos com equação de Pitágoras. 
+https://www.youtube.com/watch?v=XRJvcU4TfDM
+
+construído a equação y=ax+b quando se tem o gráfico ou dois pontos
+https://www.youtube.com/watch?v=gZHpJ4kD9a0
+
+
+este aqui vai cair exatamente igual na prova (trocando os números)
+https://www.youtube.com/watch?v=mmvl1wDCTPQ
+
+
+Porcentagem e regra de três
+https://www.youtube.com/watch?v=mnle8NcUYkQ
+
+Adicionar comentário para a turma...
+
+3º Ano A Manha - Matematica II - Médio ROCHA POMBO, C E-EF M N
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: #18929D;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+.banner{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    
+    border-radius: 15%;
+    background-color: rgb(14, 196, 150);
+}
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+    box-shadow: #fff;
+    
+    border-radius: 15%;
+    background-color: rgb(14, 196, 150);
+}
+.texto .botoes{
+    margin-top: 30px;
+}
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+.texto .botoes button.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+style.css
+Exibindo style.css…
