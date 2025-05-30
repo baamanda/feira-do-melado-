@@ -4,25 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feira do Melado - Tradição e Sabores</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #F5F5F0; /* off-white */
-            color: #3E2723; /* marrom escuro */
+            background-color: #FAF9F5; /* off-white mais quente */
+            color: #4E342E; /* marrom escuro */
+            line-height: 1.6;
         }
         
         header {
-            background-color: #5D4037; /* marrom médio */
-            color: #F5F5F0;
-            padding: 20px 0;
+            background-color: #6D4C41; /* marrom médio */
+            color: #FAF9F5;
+            padding: 30px 0;
             text-align: center;
+            border-bottom: 5px solid #3E2723; /* borda marrom escura */
+            margin-bottom: 20px;
+        }
+        
+        .titulo-principal {
+            font-family: 'Pacifico', cursive;
+            font-size: 3.5em;
+            font-weight: bold;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            color: #FFF8E1; /* off-white amarelado */
+        }
+        
+        .subtitulo {
+            font-style: italic;
+            margin-top: 10px;
+            font-size: 1.2em;
         }
         
         nav {
-            background-color: #4E342E; /* marrom mais escuro */
-            padding: 10px 0;
+            background-color: #5D4037; /* marrom mais escuro */
+            padding: 15px 0;
+            border-top: 2px solid #8D6E63; /* borda marrom clara */
+            border-bottom: 2px solid #3E2723; /* borda marrom escura */
         }
         
         nav ul {
@@ -31,58 +52,111 @@
             padding: 0;
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
         }
         
         nav li {
-            margin: 0 15px;
+            margin: 0 20px;
         }
         
         nav a {
-            color: #F5F5F0;
+            color: #EFEBE9;
             text-decoration: none;
             font-weight: bold;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #8D6E63; /* marrom claro */
+            color: #FFF;
         }
         
         .container {
-            width: 80%;
-            margin: 20px auto;
-            padding: 20px;
+            width: 85%;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 25px;
             background-color: #FFF;
-            border: 1px solid #D7CCC8; /* marrom claro */
-            border-radius: 5px;
+            border: 2px solid #D7CCC8; /* borda marrom claro */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         
         footer {
             background-color: #5D4037;
-            color: #F5F5F0;
+            color: #EFEBE9;
             text-align: center;
-            padding: 15px 0;
-            margin-top: 20px;
+            padding: 25px 0;
+            margin-top: 40px;
+            border-top: 5px solid #3E2723;
+            font-size: 0.9em;
         }
         
-        h1, h2 {
-            color: #4E342E;
+        footer p {
+            margin: 5px 0;
+        }
+        
+        h1, h2, h3 {
+            color: #3E2723;
+        }
+        
+        h2 {
+            border-bottom: 2px solid #BCAAA4;
+            padding-bottom: 10px;
+            margin-top: 30px;
         }
         
         .destaque {
-            background-color: #D7CCC8; /* marrom claro */
-            padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
+            background-color: #EFEBE9;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 25px 0;
+            border-left: 5px solid #8D6E63;
         }
         
         .produto {
-            border: 1px solid #BCAAA4;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
+            border: 2px solid #BCAAA4;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            background-color: #FFF;
+        }
+        
+        .produto h3 {
+            color: #5D4037;
+            margin-top: 0;
+        }
+        
+        .localizacao {
+            background-color: #EFEBE9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+            
+            .titulo-principal {
+                font-size: 2.5em;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Feira do Melado</h1>
-        <p>Tradição, sabor e cultura em um só lugar</p>
+        <h1 class="titulo-principal">Feira do Melado</h1>
+        <p class="subtitulo">Doçura que vem da tradição</p>
     </header>
     
     <nav>
@@ -102,17 +176,19 @@
             
             <div class="destaque">
                 <h3>Edição 2023</h3>
-                <p>Este ano a feira acontecerá nos dias 15 a 18 de novembro, com uma programação especial incluindo shows, oficinas e degustações.</p>
+                <p>Este ano a feira acontecerá nos dias 15 a 18 de novembro, com uma programação especial incluindo shows, oficinas e degustações gratuitas dos melhores produtos da região.</p>
             </div>
+            
+            <p>Nossa feira é reconhecida como patrimônio cultural da região, preservando técnicas centenárias de produção do melado de cana-de-açúcar.</p>
         </section>
         
         <section id="programacao">
             <h2>Programação</h2>
             <ul>
-                <li><strong>Dia 15:</strong> Abertura oficial e show cultural</li>
-                <li><strong>Dia 16:</strong> Oficinas de produção artesanal</li>
-                <li><strong>Dia 17:</strong> Competição de receitas com melado</li>
-                <li><strong>Dia 18:</strong> Encerramento com show musical</li>
+                <li><strong>Dia 15/11 (Quarta-feira):</strong> Abertura oficial (18h) e show cultural com grupos folclóricos (20h)</li>
+                <li><strong>Dia 16/11 (Quinta-feira):</strong> Oficinas de produção artesanal (9h-12h e 14h-17h)</li>
+                <li><strong>Dia 17/11 (Sexta-feira):</strong> Competição de receitas com melado (10h-16h) e show regional (19h)</li>
+                <li><strong>Dia 18/11 (Sábado):</strong> Dia da família com atividades infantis (10h-17h) e grande encerramento musical (20h)</li>
             </ul>
         </section>
         
@@ -120,30 +196,35 @@
             <h2>Nossos Produtos</h2>
             
             <div class="produto">
-                <h3>Melado Puro</h3>
-                <p>Produzido artesanalmente a partir da cana-de-açúcar, sem aditivos químicos.</p>
+                <h3>Melado Puro Artesanal</h3>
+                <p>Produzido de forma totalmente artesanal a partir da cana-de-açúcar orgânica, sem aditivos químicos. Disponível em embalagens de 250g, 500g e 1kg.</p>
             </div>
             
             <div class="produto">
-                <h3>Rapadura</h3>
-                <p>Deliciosa e nutritiva, feita com o melado de cana.</p>
+                <h3>Rapadura Tradicional</h3>
+                <p>Deliciosa e nutritiva, feita com o puro melado de cana. Opções: natural, com coco e com amendoim.</p>
             </div>
             
             <div class="produto">
                 <h3>Doces Caseiros</h3>
-                <p>Variedade de doces produzidos com melado: cocada, pé-de-moleque e outros.</p>
+                <p>Variedade de doces produzidos com melado: cocada, pé-de-moleque, doce de abóbora, doce de leite e muito mais.</p>
             </div>
         </section>
     </div>
     
     <div class="container" id="local">
         <h2>Localização</h2>
-        <p>A Feira acontece na Praça Central da Cidade, Rua das Palmeiras, 100.</p>
-        <p>Horário de funcionamento: 9h às 20h</p>
+        <div class="localizacao">
+            <p><strong>Praça Central da Cidade</strong></p>
+            <p>Rua das Palmeiras, 100 - Centro</p>
+            <p>Horário de funcionamento: 9h às 20h</p>
+            <p>Estacionamento gratuito disponível</p>
+        </div>
     </div>
     
     <footer id="contato">
-        <p>Contato: feiradomelado@exemplo.com | (00) 1234-5678</p>
+        <p><strong>Contato:</strong> feiradomelado@exemplo.com | (00) 1234-5678</p>
+        <p><strong>Redes Sociais:</strong> @feiradomeladooficial</p>
         <p>&copy; 2023 Feira do Melado - Todos os direitos reservados</p>
     </footer>
 </body>
