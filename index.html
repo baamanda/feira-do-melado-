@@ -2,39 +2,149 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Site simples com html e css</title>
+    <title>Feira do Melado - Tradição e Sabores</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F0; /* off-white */
+            color: #3E2723; /* marrom escuro */
+        }
+        
+        header {
+            background-color: #5D4037; /* marrom médio */
+            color: #F5F5F0;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #4E342E; /* marrom mais escuro */
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: #F5F5F0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFF;
+            border: 1px solid #D7CCC8; /* marrom claro */
+            border-radius: 5px;
+        }
+        
+        footer {
+            background-color: #5D4037;
+            color: #F5F5F0;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        
+        h1, h2 {
+            color: #4E342E;
+        }
+        
+        .destaque {
+            background-color: #D7CCC8; /* marrom claro */
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .produto {
+            border: 1px solid #BCAAA4;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Feira do Melado</h1>
+        <p>Tradição, sabor e cultura em um só lugar</p>
+    </header>
+    
     <nav>
-
-        <div class="logo">
-            <a href="index.html"> nome </a>
-        </div>
-
         <ul>
-            <li> <a href="produtos.html"> produtos </a> </li>
-            <li> <a href="#">  mudar </a> </li>
-            <li> <a href="#">  mudar </a> </li>
-            <li> <a href="#">  mudar </a> </li>
-            <li> <a href="#"> mudar </a> </li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#local">Localização</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
-
     </nav>
-    <section class="banner">
-        <div class="texto">
-           <h1 class="titulo">Feira do Melado </h1>
-           <h2 class="sub_titulo">Capanema - Paraná </h2>
-           <div class="botoes">
-               <button class="n-overlay">Anterior</button>
-               <button class="n-overlay">Próxima</button>
-               <button class="overlay">Inscrever</button>
-           </div>
-        </div>
-    </section>
+    
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre a Feira</h2>
+            <p>A Feira do Melado é um evento tradicional que celebra a cultura do melado e seus derivados. Realizada anualmente, reúne produtores locais e visitantes em um ambiente de festa e valorização da produção artesanal.</p>
+            
+            <div class="destaque">
+                <h3>Edição 2023</h3>
+                <p>Este ano a feira acontecerá nos dias 15 a 18 de novembro, com uma programação especial incluindo shows, oficinas e degustações.</p>
+            </div>
+        </section>
+        
+        <section id="programacao">
+            <h2>Programação</h2>
+            <ul>
+                <li><strong>Dia 15:</strong> Abertura oficial e show cultural</li>
+                <li><strong>Dia 16:</strong> Oficinas de produção artesanal</li>
+                <li><strong>Dia 17:</strong> Competição de receitas com melado</li>
+                <li><strong>Dia 18:</strong> Encerramento com show musical</li>
+            </ul>
+        </section>
+        
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            
+            <div class="produto">
+                <h3>Melado Puro</h3>
+                <p>Produzido artesanalmente a partir da cana-de-açúcar, sem aditivos químicos.</p>
+            </div>
+            
+            <div class="produto">
+                <h3>Rapadura</h3>
+                <p>Deliciosa e nutritiva, feita com o melado de cana.</p>
+            </div>
+            
+            <div class="produto">
+                <h3>Doces Caseiros</h3>
+                <p>Variedade de doces produzidos com melado: cocada, pé-de-moleque e outros.</p>
+            </div>
+        </section>
+    </div>
+    
+    <div class="container" id="local">
+        <h2>Localização</h2>
+        <p>A Feira acontece na Praça Central da Cidade, Rua das Palmeiras, 100.</p>
+        <p>Horário de funcionamento: 9h às 20h</p>
+    </div>
+    
+    <footer id="contato">
+        <p>Contato: feiradomelado@exemplo.com | (00) 1234-5678</p>
+        <p>&copy; 2023 Feira do Melado - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
-index.html
-Exibindo index.html…
